@@ -1,0 +1,367 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.logo {
+  float: left;
+  color: #87af35;
+  padding-left: 20px;
+  font-size: 20px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-link {
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 0;
+  color: #000;
+  font-size: 14px;
+  letter-spacing: .2em;
+}
+
+
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.titel {
+  color: white;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 60px;
+  font-family: "Just Another Hand", cursive;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  
+}
+
+.info {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+}
+
+.btn {
+  background: 0 0;
+  border: 2px solid #fff;
+  color: black;
+  border-radius: 100px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #87af35;
+  color: #ffffff;
+  border: 2px solid black;
+}
+
+.all {
+  text-align: center;
+}
+
+/* ---slider-- */
+.owl-carousel {
+  height: 1%;
+}
+
+.item {
+  /* object-fit: contain; */
+  height: 800px;
+  width: 100%;
+  padding-left: 0px 0px 10px 10px;
+  background-attachment: fixed;
+}
+
+/* //fruits */
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.probootstrap-section {
+  padding: 4em 0;
+  position: relative;
+  z-index: 2;
+}
+
+.product-item .text .heading {
+  font-size: 20px;
+  margin-top: 0;
+  line-height: 1.4;
+}
+.media-item .text, .product-item .text {
+  padding: 20px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.img-res {
+  display: block;
+  max-width: 100%;
+  height: 240px;
+}
+.product{
+  box-shadow: 0 6px 68px -6px rgba(0,0,0,.09);
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  overflow: hidden;
+
+}
+.btn.btn-primary {
+  border: 2px solid #87af35;
+  background: #87af35;
+  color: #fff;
+  
+}
+
+/* backgroundimg */
+.probootstrap-section.probootstrap-bg:before {
+  position: absolute;
+  content: "";
+  background: rgba(0,0,0,.4);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
+.probootstrap-section.probootstrap-bg .heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: "Just Another Hand",cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 80px;
+  background-attachment: fixed;
+}
+
+.service {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+  padding: 30px;
+  border-radius: 7px;
+  background: #fff;
+  -webkit-box-shadow: 0 6px 68px -6px rgba(0,0,0,.09);
+  box-shadow: 0 6px 68px -6px rgba(0,0,0,.09);
+}
+.service .icon {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.service .icon i {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.2);
+  color: #87af35;
+}
+
+.service p:last-child {
+  margin-bottom: 0;
+}
+
+.service .heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.service.left-icon {
+  padding: 0px;
+  border: none;
+  margin-bottom: 20px !important;
+}
+
+.service.left-icon .icon, .service.left-icon .text {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.service.left-icon .icon {
+  width: 70px;
+  position: relative;
+  top: 20px;
+}
+
+.service.left-icon .icon i {
+  font-size: 40px;
+}
+
+.service.left-icon .text {
+  display: table-cell;
+}
+
+.service.left-icon h3 {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+.service.left-icon p {
+  font-size: 14px;
+}
+
+.service.left-icon p:last-child {
+  margin-bottom: 0;
+}
+
+.service.hover_service {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.service.hover_service:hover, .service.hover_service:focus {
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+}
+h2{
+  margin: 1.414em 0 0.5em;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #000;
+}
+.service .icon i {
+  font-size: 20px;
+  color: #87af35;
+}
+
+/* footer */
+
+.probootstrap-footer.probootstrap-bg:before {
+  position: absolute;
+  background: rgba(0,0,0,.5);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.probootstrap-footer.probootstrap-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 8em 0;
+  position: relative;
+  color: rgba(255,255,255,.9)
+}
+
+.probootstrap-footer.probootstrap-bg a:hover,.probootstrap-footer.probootstrap-bg h2,.probootstrap-footer.probootstrap-bg h3,.probootstrap-footer.probootstrap-bg h4 {
+  color: #fff
+}
+
+.probootstrap-footer.probootstrap-bg:before {
+  position: absolute;
+  background: rgba(0,0,0,.5);
+  top: 0;
+  left: 0;
+  z-index: 1
+}
+
+.probootstrap-footer>.container {
+  position: relative;
+  z-index: 2
+}
+
+.probootstrap-footer form .form-control {
+  border: 1px solid rgba(255,255,255,.5);
+  background: 0 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 46px;
+  color: #fff;
+  -webkit-transition: .3s all ease-in;
+  transition: .3s all ease-in
+}
+
+.probootstrap-footer form .form-control:active,.probootstrap-footer form .form-control:focus {
+  outline: 0;
+  border: 1px solid #87af35
+}
+
+.probootstrap-footer form .form-control::-webkit-input-placeholder {
+  color: rgba(255,255,255,.5)
+}
+
+.probootstrap-footer form .form-control::-moz-placeholder {
+  color: rgba(255,255,255,.5)
+}
+
+.probootstrap-footer form .form-control:-ms-input-placeholder {
+  color: rgba(255,255,255,.5)
+}
+
+.probootstrap-footer form .form-control:-moz-placeholder {
+  color: rgba(255,255,255,.5)
+}
+
+.probootstrap-footer form .form-field {
+  position: relative
+}
+
+.probootstrap-footer form .btn.btn-subscribe {
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #87af35
+}
+.stack-link li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color:white;
+}
+.probootstrap-footer-social li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.probootstrap-footer-social li a {
+  padding: 10px;
+  font-size: 22px;
+}
+.fa-brands{
+  color:white;
+}
